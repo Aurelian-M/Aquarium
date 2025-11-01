@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+html , body {
+    margin: 0;
+  padding: 0;
+}
+
+ .bodyWelcome {
+  background: linear-gradient(to bottom, rgba(129, 201, 249, 0.6) 20% , rgb(255, 255, 255) 80% );
+  
+} 

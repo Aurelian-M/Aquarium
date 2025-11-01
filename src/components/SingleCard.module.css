@@ -1,0 +1,132 @@
+.container {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa 30%, #ffffff);
+}
+
+.backButton {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #0077b6;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.backButton:hover {
+  color: #023e8a;
+  text-decoration: underline;
+}
+
+.card {
+  display: flex;
+  gap: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  
+}
+
+.imageSection {
+  flex: 0 0 30%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.infoSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #023e8a;
+}
+
+.price,
+.stock {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.likeButton {
+  font-size: 1.4rem;
+  border: none;
+  background: #caf0f8;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.liked {
+  background-color: #038cfc;
+  color: #fcce04;
+  box-shadow: 0 0 10px #006aff;
+}
+
+.likeButton:hover {
+  transform: scale(1.05);
+}
+
+.quantityRow {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+.quantityLabel {
+  font-size: 1rem;
+}
+
+.quantityInput {
+  width: 60px;
+  padding: 0.3rem;
+  margin-left: 0.5rem;
+  border: 1px solid #90e0ef;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.cartButton {
+  background-color: #3ab5e6;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cartButton:hover {
+  background-color: #0077b6;
+}
+
+.notFound {
+  padding: 2rem;
+  text-align: center;
+}
+
+.navButtons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.btns{
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,90 @@
+
+
+ section {
+  padding: .5rem;
+  position: relative;
+}
+
+.commentsForm {
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(31, 156, 214, 0.595);
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+.commentsForm textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: vertical;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.commentsForm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+li {
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 1rem;
+  position: relative;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+li small {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+li strong {
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+
+.deleteBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  color: #c00;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  transition: color 0.2s;
+}
+
+.deleteBtn:hover {
+  color: #ff0000;
+}

@@ -1,0 +1,53 @@
+.backgroundContainer {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../pictures/background/unfocused.avif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header{
+    display: flex;
+    h1{margin: auto;}
+}
+.support{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+    height: 4rem;
+    padding: 1rem;
+    background-color: rgba(0, 187, 255, 0.5);
+    border-radius: 3rem;
+    margin: 1rem 2rem 0 auto;
+
+}
+
+.navBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+  margin-left: 4rem;
+}
+
+.navBtn button{
+  height: 2rem;
+  width: 5rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: rgba(0, 187, 255, 0.3);
+}
+.navBtn button:hover{
+  background-color: rgba(0, 187, 255, 0.8);
+  cursor: pointer;
+}
+
+.navBtn :nth-child(1){
+   border-radius: 1rem 0 0 1rem;
+}
+.navBtn :nth-child(2){
+   border-radius: 0 1rem 1rem 0;
+}
