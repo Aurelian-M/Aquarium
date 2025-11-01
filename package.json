@@ -10,7 +10,7 @@
   "build": "bun run build:backend && bun run build:frontend",
   "build:frontend": "vite build",
   "build:backend": "cd server && tsc && node fixImports.js",
-  "start": "bun run server.js",
+  "start": "bun run server.js", 
     "lint": "eslint .",
     "preview": "vite preview"
   },

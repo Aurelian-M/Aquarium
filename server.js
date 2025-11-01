@@ -22,7 +22,7 @@ app.use('/aquarium/server/Fishes_Plants', express.static(path.join(__dirname, 's
 
 
 app.get('/aquarium', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+  res.sendFile(path.join(__dirname, 'dist', 'index.html')); 
 });
 
 app.listen(PORT, () => {
